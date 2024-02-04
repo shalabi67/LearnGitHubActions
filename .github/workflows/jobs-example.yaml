@@ -1,4 +1,4 @@
-name: A Basic Workflow
+name: Job Dependency Workflow
 
 # Controls when the workflow will run
 on:
