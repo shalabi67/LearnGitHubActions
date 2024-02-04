@@ -3,6 +3,8 @@ Variables are used to store information to be referenced and manipulated in a pr
 depending on conditions or on information passed to the program. We create a variable and assign a value to it with 
 intention to use them one or more times later in the workflow.
 
+[github variables documentation](https://docs.github.com/en/actions/learn-github-actions/variables)
+
 ## Environment variables
 When it comes to GitHub action workflow, we can use environment variables to store information that we want to 
 reference later inside workflow. We reference environment variables within a workflow step or an action and the 
@@ -19,6 +21,10 @@ the main job, while testvar will be
 The GitHUB_ENV represents the environment variables for a workflow, we can use it to set and get env variables
 ![GitHUB_ENV example](var-github_env.png)
 
+## Default variables
+[Default environment variables documentation](https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables)
+
+default environment variables that GitHub sets automatically.
 
 
 
