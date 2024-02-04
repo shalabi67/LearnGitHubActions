@@ -1,4 +1,4 @@
-name: 'Passing Values to Next Jobs'
+name: 'Sharing Values between Jobs'
 
 on:  workflow_dispatch
 

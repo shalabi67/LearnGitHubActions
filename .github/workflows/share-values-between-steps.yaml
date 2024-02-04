@@ -1,4 +1,4 @@
-name: Passing Values to Next Steps
+name: Sharing Values between Steps
 
 on:  workflow_dispatch
 
