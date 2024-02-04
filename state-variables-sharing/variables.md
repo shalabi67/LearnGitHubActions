@@ -15,6 +15,12 @@ The scope of a custom environment variable is limited to the element in which it
 In The example the DAY:OF_WEEK and testvar will be scoped all over the document. Greeting will be scoped just on 
 the main job, while testvar will be
 
+### GitHUB_ENV
+The GitHUB_ENV represents the environment variables for a workflow, we can use it to set and get env variables
+![GitHUB_ENV example](var-github_env.png)
+
+
+
 
 
 
