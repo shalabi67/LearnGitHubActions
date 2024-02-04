@@ -8,6 +8,13 @@ If you want to update the scret yaou can do that, but you can not view the exiti
 
 ![using secret example](img_1.png)
 
+## Environment secrets
+When we have production, testing, staging and etc, it will be confusing to put our secrets related to an 
+environment under secret actions. To solve that we can create environment and put our secrets in it.
+![environments](img_2.png)
+
+![using environment secrets](img_3.png)
+if the secret is not defined in the environment it will get it from the repository secrets.
 
 
 
