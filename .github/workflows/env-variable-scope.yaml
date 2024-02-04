@@ -22,7 +22,13 @@ jobs:
         run: |
           echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
           echo "testvar  $testvar"
-          echo "testvar  ${{ mainjob.env.testvar }}"
+          echo "testvar  ${{ env.testvar }}"
         env:
           First_Name: Student
           testvar: value-3
+
+      - name: print-values-of-env-vars-shows-value-2
+        run: |
+          echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
+          echo "testvar  $testvar"
+          echo "testvar  ${{ env.testvar }}"
